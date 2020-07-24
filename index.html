@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <title>Web Calculator</title>
+   </head>
+   <link rel="stylesheet" href="style.css">
+   <body>
+     <div class="main">
+       <form>
+         <input type="text" id="value1" class="inputbox">
+         <select id="type" class="operator"><option value="add">+</option>
+           <option value="sub">-</option>
+           <option value="mult">*</option>
+           <option value="div">/</option>
+         </select>
+         <input type="text" id="value2" class="inputbox">
+         <br>
+         <button type="button" class="calcbutton" onclick="calc()">Calculate</button>
+       </form>
+
+     </div>
+     <div id="result">
+
+     </div>
+   </body>
+   <script src="main.js">
+   </script>
+ </html>

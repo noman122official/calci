@@ -1,0 +1,36 @@
+.calcbutton {
+  transition-duration: 0.4s;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 100px;
+  padding-top: 10px;
+}
+
+.calcbutton:hover {
+  background-color: #4CAF50;
+  color: white;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.inputbox{
+  transition-duration: 0.5s;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.operator{
+  height: 30px;
+  width: 50px;
+  align-content: center;
+  padding-top: 10px;
+  text-align: center;
+}
+
+
+.main{
+  margin: auto;
+}
