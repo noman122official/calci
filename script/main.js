@@ -6,7 +6,7 @@ let toggleNav = function() {
 
   if (navBarStauts === false){
     getSideBarUL.style.visibility="visible";
-    getSideBar.style.width="300px";
+    getSideBar.style.width="500px";
     navBarStauts = true;
   }
   else if (navBarStauts === true) {
